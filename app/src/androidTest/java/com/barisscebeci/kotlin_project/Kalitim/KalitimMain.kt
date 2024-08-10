@@ -10,4 +10,11 @@ fun main() {
 
     println(bogazVilla.garajVarMi)
     println(bogazVilla.pencereSayisi)
+
+    if (topkapiSarayi is Saray) {
+        println("Saraydır")
+
+    }else {
+        println("Saray degildir")
+    }
 }
